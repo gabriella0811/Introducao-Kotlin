@@ -1,0 +1,17 @@
+/**
+
+---- Exercício 2 ----
+
+ * You can edit, run, and share this code. 
+ * play.kotlinlang.org 
+ */
+
+
+fun main() {
+
+    val bingo = listOf(8,6,34,2,13)
+    var number = (1..34).random()
+    
+    println(number)
+    println(number in bingo)
+}
